@@ -51,7 +51,7 @@ const App = () => {
                         <button type="button" onClick={() => removeField(index)}>Remove</button>
                     </div>
                 ))}
-                <button type="button" onClick={addField}>Add More Fields</button>
+                <button type="button" onClick={addField}>Add More...</button>
                 <button type="submit">Submit</button>
             </form>
         </div>
